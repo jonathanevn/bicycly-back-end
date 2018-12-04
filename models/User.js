@@ -63,4 +63,4 @@ const UserSchema = new mongoose.Schema({
   reviews: Number
 });
 
-module.exports = mongoose.Schema("User", UserSchema, "users");
+module.exports = mongoose.model("User", UserSchema, "users");
