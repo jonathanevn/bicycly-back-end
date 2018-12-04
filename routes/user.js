@@ -59,8 +59,4 @@ app.post("/log_in", function(req, res) {
   });
 });
 
-// Démarrer le serveur
-const port = 3000;
-app.listen(port, function() {
-  console.log("Server started");
-});
+module.exports = router;
