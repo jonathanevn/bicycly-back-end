@@ -1,7 +1,7 @@
 require("dotenv").config();
 
-let uid2 = require("uid2");
-let mongoose = require("mongoose");
+const uid2 = require("uid2");
+const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 mongoose.connect(
   process.env.MONGODB_URI,
@@ -23,7 +23,7 @@ for (let i = 0; i < users.length; i++) {
   User.register(
     new User({
       shortId: users[i].id,
-      email: users[i].username.toLowerCase(),
+      email: users[i].email.toLowerCase(),
       token: uid2(16),
 
       account: {
@@ -119,7 +119,7 @@ setTimeout(function() {
     User.findOne({ "account.username": user.username })
       .exec()
       .then(function(userFound) {
-        Bike.find({ shortId: { $in: user.favoriteIds } })
+        Bike.find({ id: { $in: user.favoriteIds } })
           .exec()
           .then(function(favorites) {
             favorites.forEach(function(favorite) {
@@ -131,7 +131,7 @@ setTimeout(function() {
               } else {
                 console.log("user favorites updated " + obj.account.username);
 
-                Bike.find({ shortId: { $in: user.bikeIds } })
+                Bike.find({ id: { $in: user.bikeIds } })
                   .exec()
                   .then(function(bikesOwned) {
                     bikesOwned.forEach(function(bikeOwned) {

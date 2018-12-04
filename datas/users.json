@@ -4,6 +4,7 @@
     "username": "Audrey B.",
     "firstName": "Audrey",
     "lastName": "Benielli",
+    "email":"audrey.b@gmail.com",
     "photo": [
       "http://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,r_0,w_484/v1543860964/Users/audrey-avatar.jpg"
     ],
@@ -16,6 +17,7 @@
     "username": "Wilfried L.",
     "firstName": "Wilfried",
     "lastName": "Lloza",
+    "email":"wilfried.w@gmail.com",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543861186/Users/wilfried-avatar.jpg"
     ],
@@ -28,6 +30,7 @@
     "username": "Alexis M.",
     "firstName": "Alexis",
     "lastName": "Michelot",
+    "email":"alexis.m@gmail.com",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860964/Users/alexis-avatar.jpg"
     ],
@@ -40,6 +43,7 @@
     "username": "Jonathan E.",
     "firstName": "Jonathan",
     "lastName": "Eveno",
+    "email":"jonathan.e@gmail.com",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543861496/Users/jonathan-avatar.jpg"
     ],
@@ -52,6 +56,7 @@
     "username": "Farid S.",
     "firstName": "Farid",
     "lastName": "Safi",
+    "email":"farid.s@gmail.com",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543862042/Users/farid-avatar.jpg"
     ],
@@ -64,6 +69,7 @@
     "username": "Xavier C.",
     "firstName": "Xavier",
     "lastName": "Colombel",
+    "email":"xavier.c@gmail.com",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543862043/Users/xavier-avatar.jpg"
     ],
@@ -76,6 +82,7 @@
     "username": "Katherine M.",
     "firstName": "Katherine",
     "lastName": "Moss",
+    "email":"katherine.m@gmail.com",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543876221/Users/17.jpg"
     ],
@@ -89,6 +96,7 @@
     "username": "Eva C.",
     "firstName": "Eva",
     "lastName": "Calvert",
+    "email":"eva.c@gmail.com",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,w_340/v1543876052/Users/eva-avatar.jpg"
     ],
@@ -102,6 +110,7 @@
     "username": "Chloé S.",
     "firstName": "Chloé",
     "lastName": "Sirko",
+    "email":"chloe.s@gmail.com",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,w_211/v1543876047/Users/chlo%C3%A9-avatar.jpg"
     ],

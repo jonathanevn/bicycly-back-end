@@ -1,4 +1,4 @@
-let mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
 let CitySchema = new mongoose.Schema({
   source: String,
