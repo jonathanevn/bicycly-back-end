@@ -70,7 +70,7 @@ setTimeout(function() {
 
   bikes.forEach(function(bike_to_save) {
     let data = {
-      id: bike_to_save.id,
+      shortId: bike_to_save.id,
       bikeBrand: bike_to_save.bikeBrand,
       bikeModel: bike_to_save.bikeModel,
       bikeCategory: bike_to_save.bikeCategory,
@@ -119,7 +119,7 @@ setTimeout(function() {
     User.findOne({ "account.username": user.username })
       .exec()
       .then(function(userFound) {
-        Bike.find({ id: { $in: user.favoriteIds } })
+        Bike.find({ shortId: { $in: user.favoriteIds } })
           .exec()
           .then(function(favorites) {
             favorites.forEach(function(favorite) {
@@ -131,7 +131,7 @@ setTimeout(function() {
               } else {
                 console.log("user favorites updated " + obj.account.username);
 
-                Bike.find({ id: { $in: user.bikeIds } })
+                Bike.find({ shortId: { $in: user.bikeIds } })
                   .exec()
                   .then(function(bikesOwned) {
                     bikesOwned.forEach(function(bikeOwned) {
