@@ -1,0 +1,682 @@
+[
+  {
+    "id": 1,
+    "cityId": "paris",
+    "userId": 1,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860749/Bikes/bike-Hollandais-1.jpg"
+    ],
+    "brand": "ORTLER",
+    "model": " Detroit Limited",
+    "category": ["Hollandais", "Ville"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 10,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Porte Bagage",
+      "Housse de selle"
+    ],
+    "loc": {
+      "lat": 48.871040,
+      "lon": 2.373783
+    }
+  },
+
+  {
+    "id": 2,
+    "cityId": "paris",
+    "userId": 2,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860673/Bikes/bike-Course-1.jpg"
+    ],
+    "brand": "SCOTT",
+    "model": "Contessa Speedster Gravel 25",
+    "category": ["Course"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 20,
+    "accessories": ["Antivol", "Lumières", "Sonnette"],
+    "loc": {
+      "lat": 48.873291,
+      "lon": 2.370698
+    }
+  },
+
+  {
+    "id": 3,
+    "cityId": "paris",
+    "userId": 2,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860797/Bikes/bike-Course-2.jpg"
+    ],
+    "brand": "GIANT",
+    "model": "TRC Advanced SL Disc",
+    "category": ["Course"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 9,
+    "accessories": ["Antivol", "Lumières", "Sonnette"],
+    "loc": {
+      "lat": 48.881949,
+      "lon": 2.371664
+    }
+  },
+
+  {
+    "id": 4,
+    "cityId": "paris",
+    "userId": 2,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860822/Bikes/bike-VTT-1.jpg"
+    ],
+    "brand": "TREK",
+    "model": " Marlin 5",
+    "category": ["VTT"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 17,
+    "accessories": ["Antivol", "Lumières", "Sonnette", "Casque"],
+    "loc": {
+      "lat": 48.879638,
+      "lon": 2.363355
+    }
+  },
+
+  {
+    "id": 5,
+    "cityId": "paris",
+    "userId": 3,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860762/Bikes/bike-Fixie-1.jpg"
+    ],
+    "brand": "PEUGEOT",
+    "model": "Lu01",
+    "category": ["Fixie", "Course"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..",
+    "pricePerDay": 19,
+    "accessories": ["Antivol"],
+    "loc": {
+      "lat": 48.865630,
+      "lon": 2.372710
+    }
+  },
+
+  {
+    "id": 6,
+    "cityId": "paris",
+    "userId": 3,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860783/Bikes/bike-VTC-1.jpg"
+    ],
+    "brand": "CANNONDALE",
+    "model": "Jekyll 2",
+    "category": ["VTC"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 7,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Casque",
+      "Porte Bagage",
+      "Sangles"
+    ],
+    "loc": {
+      "lat": 48.864494,
+      "lon": 2.378649
+    }
+  },
+
+  {
+    "id": 7,
+    "cityId": "paris",
+    "userId": 4,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866044/Bikes/bike-cargo.jpg"
+    ],
+    "brand": "BAKFIETS",
+    "model": "Cargotrike",
+    "category": ["Cargo"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 23,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Porte Bagage",
+      "Sangles"
+    ],
+    "loc": {
+      "lat": 48.865127,
+      "lon": 2.385058
+    }
+  }
+
+  {
+    "id": 8,
+    "cityId": "paris",
+    "userId": 4,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866039/Bikes/bike-electric-murf.jpg"
+    ],
+    "brand": "MURF",
+    "model": "Fat Pax Step-Thru",
+    "category": ["Electrique", "Ville"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 24,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette"
+    ],
+    "loc": {
+      "lat": 48.858527,
+      "lon": 2.378942
+    }
+  },
+
+  {
+    "id": 9,
+    "cityId": "paris",
+    "userId": 4,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865570/Bikes/bike-city-2.jpg"
+    ],
+    "brand": "STATE BICYCLE CO.",
+    "model": "The Morgan",
+    "category": ["Ville"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 8,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Porte Bagage",
+      "Sangles"
+    ],
+    "loc": {
+      "lat": 48.863383,
+      "lon": 2.374082
+    }
+  },
+
+  {
+    "id": 10,
+    "cityId": "paris",
+    "userId": 4,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865570/Bikes/bike-BMX-1.jpg"
+    ],
+    "brand": "LEGION",
+    "model": "L18",
+    "category": ["BMX"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 11,
+    "accessories": [
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.868006,
+      "lon": 2.378311
+    }
+  },
+
+  {
+    "id": 11,
+    "cityId": "paris",
+    "userId": 5,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865570/Bikes/bike-course-fixie.jpg"
+    ],
+    "brand": "CANYON",
+    "model": "Pathlite",
+    "category": ["Fixie", "Course"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 20,
+    "accessories": [
+      "Antivol"
+    ],
+    "loc": {
+      "lat": 48.869444,
+      "lon": 2.361601
+    }
+  },
+
+  {
+    "id": 12,
+    "cityId": "paris",
+    "userId": 5,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866043/Bikes/bike-cargo-2.jpg"
+    ],
+    "brand": "KONA",
+    "model": "Ute",
+    "category": ["Cargo"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 32,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Casque",
+      "Porte Bagage",
+      "Sangles",
+      "Housse de selle"
+    ],
+    "loc": {
+      "lat": 48.877147,
+      "lon": 2.364908
+    }
+  },
+
+  {
+    "id": 13,
+    "cityId": "paris",
+    "userId": 5,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866039/Bikes/bike-electric-scott.jpg"
+    ],
+    "brand": "SCOTT",
+    "model": "E-Fit 100",
+    "category": ["Electrique", "Ville"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 10,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Porte Bagage",
+    ],
+    "loc": {
+      "lat": 48.875499,
+      "lon": 2.373905
+    }
+  },
+
+  {
+    "id": 14,
+    "cityId": "paris",
+    "userId": 6,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865569/Bikes/bike-city-4.jpg"
+    ],
+    "brand": "GIANT",
+    "model": "Argento GTS 4",
+    "category": ["Ville"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 8,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette"
+    ],
+    "loc": {
+      "lat": 48.875901,
+      "lon": 2.359826
+    }
+  },
+
+
+  {
+    "id": 15,
+    "cityId": "paris",
+    "userId": 6,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865569/Bikes/bike-course-city.jpg"
+    ],
+    "brand": "LOUISON BODET",
+    "model": "",
+    "category": ["Course", "Ville"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 10,
+    "accessories": [
+      "Antivol"
+    ],
+    "loc": {
+      "lat": 48.884275,
+      "lon": 2.365070
+    }
+  },
+
+  {
+    "id": 16,
+    "cityId": "paris",
+    "userId": 6,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865570/Bikes/bike-hollandais-2.jpg"
+    ],
+    "brand": "GAZELLE",
+    "model": "Esprit C3",
+    "category": ["Hollandais", "Ville"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 12,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Porte Bagage",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.859552,
+      "lon": 2.370869
+    }
+  },
+
+  {
+    "id": 17,
+    "cityId": "paris",
+    "userId": 6,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866038/Bikes/bike-electric-espin.jpg"
+    ],
+    "brand": "ESPIN",
+    "model": "Sport",
+    "category": ["Electrique", "Ville"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 19,
+    "accessories": [
+      "Antivol",
+      "Porte Bagage",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.858748,
+      "lon": 2.362746
+    }
+  },
+
+  {
+    "id": 18,
+    "cityId": "paris",
+    "userId": 1,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872101/Bikes/bike-vtc-4.jpg"
+    ],
+    "brand": "TREK",
+    "model": "Roadlite",
+    "category": ["VTC", "Ville"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 15,
+    "accessories": [
+      "Antivol",
+      "Sangles"
+    ],
+    "loc": {
+      "lat": 48.865489,
+      "lon": 2.360450
+    }
+  },
+
+  {
+    "id": 19,
+    "cityId": "paris",
+    "userId": 1,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872097/Bikes/bike-vtt-4.jpg"
+    ],
+    "brand": "MONDRAKER",
+    "model": "Chrono Scram",
+    "category": ["VTT"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 10,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.872355,
+      "lon": 2.355938
+    }
+  },
+
+  {
+    "id": 20,
+    "cityId": "paris",
+    "userId": 8,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872096/Bikes/bike-vtt-8.jpg"
+    ],
+    "brand": "TREK",
+    "model": "X-Caliber 7",
+    "category": ["VTT"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 8,
+    "accessories": [
+      "Antivol",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.875024,
+      "lon": 2.352402
+    }
+  },
+
+  {
+    "id": 21,
+    "cityId": "paris",
+    "userId": 8,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872096/Bikes/bike-vtc-5.jpg"
+    ],
+    "brand": "GITANE",
+    "model": "Shimano 2019",
+    "category": ["VTC"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 7,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Sangles",
+      "Porte Bagage",
+      "Housse de selle",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.872855,
+      "lon": 2.379751
+    }
+  },
+
+  {
+    "id": 22,
+    "cityId": "paris",
+    "userId": 9,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872094/Bikes/bike-vtt-7.jpg"
+    ],
+    "brand": "KONA",
+    "model": "Fire Mountain",
+    "category": ["VTT"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 13,
+    "accessories": [
+      "Antivol",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.864650,
+      "lon": 2.388678
+    }
+  },
+
+  {
+    "id": 23,
+    "cityId": "paris",
+    "userId": 9,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866043/Bikes/bike-cargo-5.jpg"
+    ],
+    "brand": "GAZELLE",
+    "model": "Cabby",
+    "category": ["Cargo"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 33,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Porte Bagage",
+      "Housse de selle"
+    ],
+    "loc": {
+      "lat": 48.859348,
+      "lon": 2.388968
+    }
+  },
+
+  {
+    "id": 24,
+    "cityId": "paris",
+    "userId": 10,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866039/Bikes/Magnum-Metro-electric-bike-1.jpg"
+    ],
+    "brand": "MAGNUM",
+    "model": "Urban",
+    "category": ["Electrique", "Ville"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 19,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Porte Bagage",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.852541,
+      "lon":  2.384832
+    }
+  },
+
+  {
+    "id": 25,
+    "cityId": "paris",
+    "userId": 10,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865569/Bikes/bike-kid-1.jpg"
+    ],
+    "brand": "PRIORITY",
+    "model": "Start 16",
+    "category": ["Enfant"],
+    "state": "Bon état",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 6,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.849844,
+      "lon": 2.379269
+    }
+  },
+
+  {
+    "id": 26,
+    "cityId": "paris",
+    "userId": 10,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865569/Bikes/bike-kid-3.jpg"
+    ],
+    "brand": "LINUS",
+    "model": "Marine",
+    "category": ["Enfant"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 6,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Casque"
+    ],
+    "loc": {
+      "lat": 48.849533,
+      "lon": 2.370643
+    }
+  },
+
+  {
+    "id": 27,
+    "cityId": "paris",
+    "userId": 10,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872094/Bikes/bike-vtc-3.jpg"
+    ],
+    "brand": "CANYON",
+    "model": "Sender",
+    "category": ["VTC"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 16,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Casque",
+      "Porte Bagage",
+      "Sangles"
+    ],
+    "loc": {
+      "lat": 48.852675,
+      "lon": 2.363127
+    }
+  },
+
+  {
+    "id": 28,
+    "cityId": "paris",
+    "userId": 10,
+    "photos": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866038/Bikes/bike-electric-magnum.jpg"
+    ],
+    "brand": "Magnum",
+    "model": "City white 2019",
+    "category": ["Electrique", "Ville"],
+    "state": "Comme neuf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "pricePerDay": 12,
+    "accessories": [
+      "Antivol",
+      "Lumières",
+      "Sonnette",
+      "Casque",
+      "Porte Bagage",
+      "Sangles"
+    ],
+    "loc": {
+      "lat": 48.857595,
+      "lon": 2.358599
+    }
+  }
+]
