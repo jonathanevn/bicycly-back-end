@@ -1,15 +1,15 @@
-var mongoose = require("mongoose");
+let mongoose = require("mongoose");
 // Le package `mongoose-simple-random` permet de récupérer aléatoirement des documents dans une collection
-var random = require("mongoose-simple-random");
+let random = require("mongoose-simple-random");
 
-var BikeSchema = new mongoose.Schema({
-  shortId: Number,
-  conditionState: String,
-  brand: String,
-  bikeClass: String,
-  typeOfBike: String,
-  price: Number,
-  bikePicture: {
+let BikeSchema = new mongoose.Schema({
+  id: Number,
+  state: String,
+  bikeBrand: String,
+  bikeModel: String,
+  bikeCategory: String,
+  pricePerDay: Number,
+  photos: {
     required: true,
     type: [String]
   },

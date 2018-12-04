@@ -1,6 +1,6 @@
-var mongoose = require("mongoose");
+let mongoose = require("mongoose");
 
-var CitySchema = new mongoose.Schema({
+let CitySchema = new mongoose.Schema({
   source: String,
   name: String,
   slug: { type: String, unique: true, required: true }, // Le slug est une version "url friendly" du nom de la ville
