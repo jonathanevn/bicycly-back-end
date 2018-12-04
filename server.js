@@ -37,13 +37,13 @@ app.get("/", function(req, res) {
 const cors = require("cors");
 app.use("/api", cors());
 
-// const coreRoutes = require("./routes/core.js");
-// const userRoutes = require("./routes/user.js");
-// const bikeRoutes = require("./routes/bike.js");
+const coreRoutes = require("./routes/core.js");
+const userRoutes = require("./routes/user.js");
+const bikeRoutes = require("./routes/bike.js");
 
-// app.use("/api", coreRoutes);
-// app.use("/api/user", userRoutes);
-// app.use("/api/room", bikeRoutes);
+app.use("/api", coreRoutes);
+app.use("/api/user", userRoutes);
+app.use("/api/room", bikeRoutes);
 
 // Toutes les méthodes HTTP (GET, POST, etc.) des pages non trouvées afficheront
 // une erreur 404
