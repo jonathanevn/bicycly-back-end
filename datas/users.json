@@ -1,10 +1,11 @@
 [
   {
-    "id": 1,
+    "shortId": 1,
     "username": "Audrey B.",
     "firstName": "Audrey",
     "lastName": "Benielli",
-    "email":"audrey.b@gmail.com",
+    "email": "audrey.b@gmail.com",
+    "address": "12 rue Traversière",
     "photo": [
       "http://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,r_0,w_484/v1543860964/Users/audrey-avatar.jpg"
     ],
@@ -13,11 +14,12 @@
     "reviews": 23
   },
   {
-    "id": 2,
+    "shortId": 2,
     "username": "Wilfried L.",
     "firstName": "Wilfried",
     "lastName": "Lloza",
-    "email":"wilfried.w@gmail.com",
+    "email": "wilfried.w@gmail.com",
+    "address": "40 rue Louis Blanc",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543861186/Users/wilfried-avatar.jpg"
     ],
@@ -26,11 +28,12 @@
     "reviews": 7
   },
   {
-    "id": 3,
+    "shortId": 3,
     "username": "Alexis M.",
     "firstName": "Alexis",
     "lastName": "Michelot",
-    "email":"alexis.m@gmail.com",
+    "email": "alexis.m@gmail.com",
+    "address": "16 rue de Paradis",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860964/Users/alexis-avatar.jpg"
     ],
@@ -39,11 +42,12 @@
     "reviews": 2
   },
   {
-    "id": 4,
+    "shortId": 4,
     "username": "Jonathan E.",
     "firstName": "Jonathan",
     "lastName": "Eveno",
-    "email":"jonathan.e@gmail.com",
+    "email": "jonathan.e@gmail.com",
+    "address": "7 rue Omer Talon",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543861496/Users/jonathan-avatar.jpg"
     ],
@@ -52,11 +56,12 @@
     "reviews": 8
   },
   {
-    "id": 5,
+    "shortId": 5,
     "username": "Farid S.",
     "firstName": "Farid",
     "lastName": "Safi",
-    "email":"farid.s@gmail.com",
+    "email": "farid.s@gmail.com",
+    "address": "8 boulevard de Strasbourg",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543862042/Users/farid-avatar.jpg"
     ],
@@ -65,11 +70,12 @@
     "reviews": 39
   },
   {
-    "id": 6,
+    "shortId": 6,
     "username": "Xavier C.",
     "firstName": "Xavier",
     "lastName": "Colombel",
-    "email":"xavier.c@gmail.com",
+    "email": "xavier.c@gmail.com",
+    "address": "5 rue Lucien Sampaix",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543862043/Users/xavier-avatar.jpg"
     ],
@@ -78,11 +84,12 @@
     "reviews": 29
   },
   {
-    "id": 8,
+    "shortId": 8,
     "username": "Katherine M.",
     "firstName": "Katherine",
     "lastName": "Moss",
-    "email":"katherine.m@gmail.com",
+    "email": "katherine.m@gmail.com",
+    "address": "34 Rue Yves Toudic",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543876221/Users/17.jpg"
     ],
@@ -92,11 +99,12 @@
   },
 
   {
-    "id": 9,
+    "shortId": 9,
     "username": "Eva C.",
     "firstName": "Eva",
     "lastName": "Calvert",
-    "email":"eva.c@gmail.com",
+    "email": "eva.c@gmail.com",
+    "address": "2 Rue Perrée",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,w_340/v1543876052/Users/eva-avatar.jpg"
     ],
@@ -106,11 +114,12 @@
   },
 
   {
-    "id": 10,
+    "shortId": 10,
     "username": "Chloé S.",
     "firstName": "Chloé",
     "lastName": "Sirko",
-    "email":"chloe.s@gmail.com",
+    "email": "chloe.s@gmail.com",
+    "address": "111 Boulevard Beaumarchais",
     "photo": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,w_211/v1543876047/Users/chlo%C3%A9-avatar.jpg"
     ],

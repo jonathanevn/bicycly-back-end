@@ -6,9 +6,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860749/Bikes/bike-Hollandais-1.jpg"
     ],
-    "brand": "ORTLER",
-    "model": " Detroit Limited",
-    "category": ["Hollandais", "Ville"],
+    "bikeBrand": "ORTLER",
+    "bikeModel": " Detroit Limited",
+    "bikeCategory": ["Hollandais", "Ville"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
@@ -32,9 +32,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860673/Bikes/bike-Course-1.jpg"
     ],
-    "brand": "SCOTT",
-    "model": "Contessa Speedster Gravel 25",
-    "category": ["Course"],
+    "bikeBrand": "SCOTT",
+    "bikeModel": "Contessa Speedster Gravel 25",
+    "bikeCategory": ["Course"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 20,
@@ -52,9 +52,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860797/Bikes/bike-Course-2.jpg"
     ],
-    "brand": "GIANT",
-    "model": "TRC Advanced SL Disc",
-    "category": ["Course"],
+    "bikeBrand": "GIANT",
+    "bikeModel": "TRC Advanced SL Disc",
+    "bikeCategory": ["Course"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 9,
@@ -72,9 +72,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860822/Bikes/bike-VTT-1.jpg"
     ],
-    "brand": "TREK",
-    "model": " Marlin 5",
-    "category": ["VTT"],
+    "bikeBrand": "TREK",
+    "bikeModel": " Marlin 5",
+    "bikeCategory": ["VTT"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 17,
@@ -92,9 +92,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860762/Bikes/bike-Fixie-1.jpg"
     ],
-    "brand": "PEUGEOT",
-    "model": "Lu01",
-    "category": ["Fixie", "Course"],
+    "bikeBrand": "PEUGEOT",
+    "bikeModel": "Lu01",
+    "bikeCategory": ["Fixie", "Course"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..",
     "pricePerDay": 19,
@@ -112,9 +112,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860783/Bikes/bike-VTC-1.jpg"
     ],
-    "brand": "CANNONDALE",
-    "model": "Jekyll 2",
-    "category": ["VTC"],
+    "bikeBrand": "CANNONDALE",
+    "bikeModel": "Jekyll 2",
+    "bikeCategory": ["VTC"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 7,
@@ -139,9 +139,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866044/Bikes/bike-cargo.jpg"
     ],
-    "brand": "BAKFIETS",
-    "model": "Cargotrike",
-    "category": ["Cargo"],
+    "bikeBrand": "BAKFIETS",
+    "bikeModel": "Cargotrike",
+    "bikeCategory": ["Cargo"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 23,
@@ -165,9 +165,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866039/Bikes/bike-electric-murf.jpg"
     ],
-    "brand": "MURF",
-    "model": "Fat Pax Step-Thru",
-    "category": ["Electrique", "Ville"],
+    "bikeBrand": "MURF",
+    "bikeModel": "Fat Pax Step-Thru",
+    "bikeCategory": ["Electrique", "Ville"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 24,
@@ -185,8 +185,8 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865570/Bikes/bike-city-2.jpg"
     ],
-    "brand": "STATE BICYCLE CO.",
-    "model": "The Morgan",
+    "bikeBrand": "STATE BICYCLE CO.",
+    "bikeModel": "The Morgan",
     "category": ["Ville"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -211,9 +211,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865570/Bikes/bike-BMX-1.jpg"
     ],
-    "brand": "LEGION",
-    "model": "L18",
-    "category": ["BMX"],
+    "bikeBrand": "LEGION",
+    "bikeModel": "L18",
+    "bikeCategory": ["BMX"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 11,
@@ -231,8 +231,8 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865570/Bikes/bike-course-fixie.jpg"
     ],
-    "brand": "CANYON",
-    "model": "Pathlite",
+    "bikeBrand": "CANYON",
+    "bikeModel": "Pathlite",
     "category": ["Fixie", "Course"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -251,9 +251,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866043/Bikes/bike-cargo-2.jpg"
     ],
-    "brand": "KONA",
-    "model": "Ute",
-    "category": ["Cargo"],
+    "bikeBrand": "KONA",
+    "bikeModel": "Ute",
+    "bikeCategory": ["Cargo"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 32,
@@ -279,9 +279,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866039/Bikes/bike-electric-scott.jpg"
     ],
-    "brand": "SCOTT",
-    "model": "E-Fit 100",
-    "category": ["Electrique", "Ville"],
+    "bikeBrand": "SCOTT",
+    "bikeModel": "E-Fit 100",
+    "bikeCategory": ["Electrique", "Ville"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
@@ -299,9 +299,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865569/Bikes/bike-city-4.jpg"
     ],
-    "brand": "GIANT",
-    "model": "Argento GTS 4",
-    "category": ["Ville"],
+    "bikeBrand": "GIANT",
+    "bikeModel": "Argento GTS 4",
+    "bikeCategory": ["Ville"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 8,
@@ -319,9 +319,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865569/Bikes/bike-course-city.jpg"
     ],
-    "brand": "LOUISON BODET",
-    "model": "",
-    "category": ["Course", "Ville"],
+    "bikeBrand": "LOUISON BODET",
+    "bikeModel": "",
+    "bikeCategory": ["Course", "Ville"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
@@ -339,9 +339,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865570/Bikes/bike-hollandais-2.jpg"
     ],
-    "brand": "GAZELLE",
-    "model": "Esprit C3",
-    "category": ["Hollandais", "Ville"],
+    "bikeBrand": "GAZELLE",
+    "bikeModel": "Esprit C3",
+    "bikeCategory": ["Hollandais", "Ville"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 12,
@@ -365,9 +365,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866038/Bikes/bike-electric-espin.jpg"
     ],
-    "brand": "ESPIN",
-    "model": "Sport",
-    "category": ["Electrique", "Ville"],
+    "bikeBrand": "ESPIN",
+    "bikeModel": "Sport",
+    "bikeCategory": ["Electrique", "Ville"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 19,
@@ -385,9 +385,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872101/Bikes/bike-vtc-4.jpg"
     ],
-    "brand": "TREK",
-    "model": "Roadlite",
-    "category": ["VTC", "Ville"],
+    "bikeBrand": "TREK",
+    "bikeModel": "Roadlite",
+    "bikeCategory": ["VTC", "Ville"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 15,
@@ -405,9 +405,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872097/Bikes/bike-vtt-4.jpg"
     ],
-    "brand": "MONDRAKER",
-    "model": "Chrono Scram",
-    "category": ["VTT"],
+    "bikeBrand": "MONDRAKER",
+    "bikeModel": "Chrono Scram",
+    "bikeCategory": ["VTT"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
@@ -425,9 +425,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872096/Bikes/bike-vtt-8.jpg"
     ],
-    "brand": "TREK",
-    "model": "X-Caliber 7",
-    "category": ["VTT"],
+    "bikeBrand": "TREK",
+    "bikeModel": "X-Caliber 7",
+    "bikeCategory": ["VTT"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 8,
@@ -445,9 +445,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872096/Bikes/bike-vtc-5.jpg"
     ],
-    "brand": "GITANE",
-    "model": "Shimano 2019",
-    "category": ["VTC"],
+    "bikeBrand": "GITANE",
+    "bikeModel": "Shimano 2019",
+    "bikeCategory": ["VTC"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 7,
@@ -473,9 +473,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872094/Bikes/bike-vtt-7.jpg"
     ],
-    "brand": "KONA",
-    "model": "Fire Mountain",
-    "category": ["VTT"],
+    "bikeBrand": "KONA",
+    "bikeModel": "Fire Mountain",
+    "bikeCategory": ["VTT"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 13,
@@ -493,9 +493,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866043/Bikes/bike-cargo-5.jpg"
     ],
-    "brand": "GAZELLE",
-    "model": "Cabby",
-    "category": ["Cargo"],
+    "bikeBrand": "GAZELLE",
+    "bikeModel": "Cabby",
+    "bikeCategory": ["Cargo"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 33,
@@ -519,9 +519,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866039/Bikes/Magnum-Metro-electric-bike-1.jpg"
     ],
-    "brand": "MAGNUM",
-    "model": "Urban",
-    "category": ["Electrique", "Ville"],
+    "bikeBrand": "MAGNUM",
+    "bikeModel": "Urban",
+    "bikeCategory": ["Electrique", "Ville"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 19,
@@ -545,9 +545,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865569/Bikes/bike-kid-1.jpg"
     ],
-    "brand": "PRIORITY",
-    "model": "Start 16",
-    "category": ["Enfant"],
+    "bikeBrand": "PRIORITY",
+    "bikeModel": "Start 16",
+    "bikeCategory": ["Enfant"],
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 6,
@@ -565,9 +565,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543865569/Bikes/bike-kid-3.jpg"
     ],
-    "brand": "LINUS",
-    "model": "Marine",
-    "category": ["Enfant"],
+    "bikeBrand": "LINUS",
+    "bikeModel": "Marine",
+    "bikeCategory": ["Enfant"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 6,
@@ -585,9 +585,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543872094/Bikes/bike-vtc-3.jpg"
     ],
-    "brand": "CANYON",
-    "model": "Sender",
-    "category": ["VTC"],
+    "bikeBrand": "CANYON",
+    "bikeModel": "Sender",
+    "bikeCategory": ["VTC"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 16,
@@ -612,9 +612,9 @@
     "photos": [
       "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543866038/Bikes/bike-electric-magnum.jpg"
     ],
-    "brand": "Magnum",
-    "model": "City white 2019",
-    "category": ["Electrique", "Ville"],
+    "bikeBrand": "Magnum",
+    "bikeModel": "City white 2019",
+    "bikeCategory": ["Electrique", "Ville"],
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 12,
