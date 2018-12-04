@@ -20,7 +20,7 @@
       "Housse de selle"
     ],
     "loc": {
-      "lat": 48.871040,
+      "lat": 48.87104,
       "lon": 2.373783
     }
   },
@@ -100,8 +100,8 @@
     "pricePerDay": 19,
     "accessories": ["Antivol"],
     "loc": {
-      "lat": 48.865630,
-      "lon": 2.372710
+      "lat": 48.86563,
+      "lon": 2.37271
     }
   },
 
@@ -156,7 +156,7 @@
       "lat": 48.865127,
       "lon": 2.385058
     }
-  }
+  },
 
   {
     "id": 8,
@@ -171,11 +171,7 @@
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 24,
-    "accessories": [
-      "Antivol",
-      "Lumières",
-      "Sonnette"
-    ],
+    "accessories": ["Antivol", "Lumières", "Sonnette"],
     "loc": {
       "lat": 48.858527,
       "lon": 2.378942
@@ -221,9 +217,7 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 11,
-    "accessories": [
-      "Casque"
-    ],
+    "accessories": ["Casque"],
     "loc": {
       "lat": 48.868006,
       "lon": 2.378311
@@ -243,9 +237,7 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 20,
-    "accessories": [
-      "Antivol"
-    ],
+    "accessories": ["Antivol"],
     "loc": {
       "lat": 48.869444,
       "lon": 2.361601
@@ -293,12 +285,7 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
-    "accessories": [
-      "Antivol",
-      "Lumières",
-      "Sonnette",
-      "Porte Bagage",
-    ],
+    "accessories": ["Antivol", "Lumières", "Sonnette", "Porte Bagage"],
     "loc": {
       "lat": 48.875499,
       "lon": 2.373905
@@ -318,17 +305,12 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 8,
-    "accessories": [
-      "Antivol",
-      "Lumières",
-      "Sonnette"
-    ],
+    "accessories": ["Antivol", "Lumières", "Sonnette"],
     "loc": {
       "lat": 48.875901,
       "lon": 2.359826
     }
   },
-
 
   {
     "id": 15,
@@ -343,12 +325,10 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
-    "accessories": [
-      "Antivol"
-    ],
+    "accessories": ["Antivol"],
     "loc": {
       "lat": 48.884275,
-      "lon": 2.365070
+      "lon": 2.36507
     }
   },
 
@@ -391,11 +371,7 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 19,
-    "accessories": [
-      "Antivol",
-      "Porte Bagage",
-      "Casque"
-    ],
+    "accessories": ["Antivol", "Porte Bagage", "Casque"],
     "loc": {
       "lat": 48.858748,
       "lon": 2.362746
@@ -415,13 +391,10 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 15,
-    "accessories": [
-      "Antivol",
-      "Sangles"
-    ],
+    "accessories": ["Antivol", "Sangles"],
     "loc": {
       "lat": 48.865489,
-      "lon": 2.360450
+      "lon": 2.36045
     }
   },
 
@@ -438,12 +411,7 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
-    "accessories": [
-      "Antivol",
-      "Lumières",
-      "Sonnette",
-      "Casque"
-    ],
+    "accessories": ["Antivol", "Lumières", "Sonnette", "Casque"],
     "loc": {
       "lat": 48.872355,
       "lon": 2.355938
@@ -463,10 +431,7 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 8,
-    "accessories": [
-      "Antivol",
-      "Casque"
-    ],
+    "accessories": ["Antivol", "Casque"],
     "loc": {
       "lat": 48.875024,
       "lon": 2.352402
@@ -514,12 +479,9 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 13,
-    "accessories": [
-      "Antivol",
-      "Casque"
-    ],
+    "accessories": ["Antivol", "Casque"],
     "loc": {
-      "lat": 48.864650,
+      "lat": 48.86465,
       "lon": 2.388678
     }
   },
@@ -572,7 +534,7 @@
     ],
     "loc": {
       "lat": 48.852541,
-      "lon":  2.384832
+      "lon": 2.384832
     }
   },
 
@@ -589,12 +551,7 @@
     "state": "Bon état",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 6,
-    "accessories": [
-      "Antivol",
-      "Lumières",
-      "Sonnette",
-      "Casque"
-    ],
+    "accessories": ["Antivol", "Lumières", "Sonnette", "Casque"],
     "loc": {
       "lat": 48.849844,
       "lon": 2.379269
@@ -614,12 +571,7 @@
     "state": "Comme neuf",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 6,
-    "accessories": [
-      "Antivol",
-      "Lumières",
-      "Sonnette",
-      "Casque"
-    ],
+    "accessories": ["Antivol", "Lumières", "Sonnette", "Casque"],
     "loc": {
       "lat": 48.849533,
       "lon": 2.370643
