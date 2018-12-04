@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const UserSchema = mongoose.Schema("User", {
+const UserSchema = new mongoose.Schema({
   shortId: {
     unique: true,
     type: Number
