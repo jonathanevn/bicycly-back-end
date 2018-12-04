@@ -9,7 +9,10 @@ var BikeSchema = new mongoose.Schema({
   bikeClass: String,
   typeOfBike: String,
   price: Number,
-  photos: [String],
+  bikePicture: {
+    required: true,
+    type: [String]
+  },
   description: String,
   accessories: {
     type: Array,
