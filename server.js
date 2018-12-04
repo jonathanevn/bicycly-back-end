@@ -37,13 +37,13 @@ app.get("/", function(req, res) {
 const cors = require("cors");
 app.use("/api", cors());
 
-const coreRoutes = require("./routes/core");
-const userRoutes = require("./routes/user");
-const bikeRoutes = require("./routes/bike");
+// const coreRoutes = require("./routes/core.js");
+// const userRoutes = require("./routes/user.js");
+// const bikeRoutes = require("./routes/bike.js");
 
-app.use("/api", coreRoutes);
-app.use("/api/user", userRoutes);
-app.use("/api/room", bikeRoutes);
+// app.use("/api", coreRoutes);
+// app.use("/api/user", userRoutes);
+// app.use("/api/room", bikeRoutes);
 
 // Toutes les méthodes HTTP (GET, POST, etc.) des pages non trouvées afficheront
 // une erreur 404
@@ -51,14 +51,14 @@ app.all("*", function(req, res) {
   res.status(404).json({ error: "Not Found" });
 });
 
-app.use(function (err, req, res, next) {
-    if (res.statusCode === 200) res.status(400);
-    console.error(err);
+app.use(function(err, req, res, next) {
+  if (res.statusCode === 200) res.status(400);
+  console.error(err);
 
-    // if (process.env.NODE_ENV === "production") err = "An error occurred";
-    res.json({ error: err });
+  // if (process.env.NODE_ENV === "production") err = "An error occurred";
+  res.json({ error: err });
+});
 
 app.listen(process.env.PORT, function() {
   console.log(`bicycly running on port ${process.env.PORT}`);
-
 });
