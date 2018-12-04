@@ -21,6 +21,8 @@ const UserSchema = mongoose.Schema("User", {
   account: {
     username: {
       type: String,
+      minlength: 1,
+      maxlength: 12,
       required: true,
       unique: true
     },
@@ -45,7 +47,11 @@ const UserSchema = mongoose.Schema("User", {
         ref: "Rent"
       }
     ],
-    description: String
+    description: {
+      type: String,
+      minlength: 1,
+      maxlength: 100
+    }
   },
 
   //   buyingOptions: String,

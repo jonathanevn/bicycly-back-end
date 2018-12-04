@@ -5,7 +5,7 @@ const SHA256 = require("crypto-js/sha256");
 const encBase64 = require("crypto-js/enc-base64");
 const uid2 = require("uid2");
 
-// const isAuthenticated = require("../middlewares/isAuthenticated");
+const isAuthenticated = require("../middlewares/isAuthenticated");
 
 const User = require("../models/User.js");
 
@@ -34,7 +34,7 @@ router.post("/sign_up", function(req, res) {
   });
 });
 
-app.post("/log_in", function(req, res) {
+router.post("/log_in", function(req, res) {
   UserModel.findOne({ email: req.body.email }).exec(function(err, myAccount) {
     if (err) {
       return res.status(400).json({ error: err.message });
@@ -57,6 +57,29 @@ app.post("/log_in", function(req, res) {
       }
     }
   });
+});
+
+// L'authentification est obligatoire pour cette route
+router.get("/:id", isAuthenticated, function(req, res, next) {
+  User.findById(req.params.id)
+    .select("account")
+    // .populate("account.bikes")
+    .exec()
+    .then(function(user) {
+      if (!user) {
+        res.status(404);
+        return next("User not found");
+      }
+
+      return res.json({
+        _id: user._id,
+        account: user.account
+      });
+    })
+    .catch(function(err) {
+      res.status(400);
+      return next(err.message);
+    });
 });
 
 module.exports = router;
