@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "username": "Audrey B.",
+    "firstName": "Audrey",
+    "lastName": "Benielli",
+    "photo": [
+      "http://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,r_0,w_484/v1543860964/Users/audrey-avatar.jpg"
+    ],
+    "bikes": [1, 18, 19],
+    "ratingValue": 4,
+    "reviews": 23
+  },
+  {
+    "id": 2,
+    "username": "Wilfried L.",
+    "firstName": "Wilfried",
+    "lastName": "Lloza",
+    "photo": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543861186/Users/wilfried-avatar.jpg"
+    ],
+    "bikes": [2, 3, 4],
+    "ratingValue": 5,
+    "reviews": 7
+  },
+  {
+    "id": 3,
+    "username": "Alexis M.",
+    "firstName": "Alexis",
+    "lastName": "Michelot",
+    "photo": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543860964/Users/alexis-avatar.jpg"
+    ],
+    "bikes": [5, 6],
+    "ratingValue": 4,
+    "reviews": 2
+  },
+  {
+    "id": 4,
+    "username": "Jonathan E.",
+    "firstName": "Jonathan",
+    "lastName": "Eveno",
+    "photo": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543861496/Users/jonathan-avatar.jpg"
+    ],
+    "bikes": [7, 8, 9, 10],
+    "ratingValue": 3,
+    "reviews": 8
+  },
+  {
+    "id": 5,
+    "username": "Farid S.",
+    "firstName": "Farid",
+    "lastName": "Safi",
+    "photo": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543862042/Users/farid-avatar.jpg"
+    ],
+    "bikes": [11, 12, 13],
+    "ratingValue": 5,
+    "reviews": 39
+  },
+  {
+    "id": 6,
+    "username": "Xavier C.",
+    "firstName": "Xavier",
+    "lastName": "Colombel",
+    "photo": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543862043/Users/xavier-avatar.jpg"
+    ],
+    "bikes": [14, 15, 16, 17],
+    "ratingValue": 5,
+    "reviews": 29
+  },
+  {
+    "id": 8,
+    "username": "Katherine M.",
+    "firstName": "Katherine",
+    "lastName": "Moss",
+    "photo": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/v1543876221/Users/17.jpg"
+    ],
+    "bikes": [20, 21],
+    "ratingValue": 4,
+    "reviews": 13
+  },
+
+  {
+    "id": 9,
+    "username": "Eva C.",
+    "firstName": "Eva",
+    "lastName": "Calvert",
+    "photo": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,w_340/v1543876052/Users/eva-avatar.jpg"
+    ],
+    "bikes": [22, 23],
+    "ratingValue": 2,
+    "reviews": 11
+  }
+
+  {
+    "id": 10,
+    "username": "Chloé S.",
+    "firstName": "Chloé",
+    "lastName": "Sirko",
+    "photo": [
+      "https://res.cloudinary.com/bicycly-cloud/image/upload/c_scale,w_211/v1543876047/Users/chlo%C3%A9-avatar.jpg"
+    ],
+    "bikes": [24, 25, 26, 27, 28],
+    "ratingValue": 5,
+    "reviews": 11
+  }
+]
