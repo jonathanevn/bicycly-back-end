@@ -46,8 +46,8 @@ for (let i = 0; i < users.length; i++) {
 }
 
 // cities
-for (var i = 0; i < cities.length; i++) {
-  var city = new City({
+for (let i = 0; i < cities.length; i++) {
+  let city = new City({
     source: cities[i].source,
     name: cities[i].name,
     slug: cities[i].id,
@@ -93,12 +93,12 @@ setTimeout(function() {
           .then(function(obj) {
             data.city = obj;
 
-            var bike = new Bike(data);
+            let bike = new Bike(data);
             bike.save(function(err, obj) {
               if (err) {
-                console.log("error saving room " + obj.bikeBrand);
+                console.log("error saving bike " + obj.bikeBrand);
               } else {
-                console.log("saved room " + obj.bikeBrand);
+                console.log("saved bike " + obj.bikeBrand);
               }
             });
           })

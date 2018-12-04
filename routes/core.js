@@ -1,14 +1,14 @@
-var express = require("express");
-var router = express.Router();
+let express = require("express");
+let router = express.Router();
 
-var Bike = require("../models/Bike.js");
-var City = require("../models/City.js");
+let Bike = require("../models/Bike.js");
+let City = require("../models/City.js");
 
 router.get("/home", function(req, res, next) {
   City.find()
     .exec()
     .then(function(cities) {
-      Room.findRandom({}, {}, { limit: 3 }, function(err, bikes) {
+      Bike.findRandom({}, {}, { limit: 3 }, function(err, bikes) {
         res.json({
           cities: cities || [],
           featured: bike || []

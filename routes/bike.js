@@ -1,11 +1,11 @@
-var express = require("express");
-var router = express.Router();
+let express = require("express");
+let router = express.Router();
 
-var Room = require("../models/Bike.js");
-var City = require("../models/City.js");
+let Bike = require("../models/Bike.js");
+let City = require("../models/City.js");
 
 function getRadians(meters) {
-  var km = meters / 1000;
+  let km = meters / 1000;
   return km / 111.2;
 }
 
@@ -42,10 +42,10 @@ router.get("/", function(req, res, next) {
     return next("City is mandatory");
   }
 
-  var filter = {};
-  var bikeRes = null;
-  var cityRes = null;
-  var countRes = null;
+  let filter = {};
+  let bikeRes = null;
+  let cityRes = null;
+  let countRes = null;
 
   City.findOne({ slug: req.query.city })
     .exec()
@@ -78,7 +78,7 @@ router.get("/", function(req, res, next) {
     .then(function(count) {
       countRes = count;
 
-      var query = Bike.find(filter)
+      let query = Bike.find(filter)
         .populate("city")
         .populate({
           path: "user",
