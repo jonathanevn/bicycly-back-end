@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 
-const UserModel = mongoose.model("User", {
-  nom: {
+const UserSchema = mongoose.Schema("User", {
+  lastName: {
     type: String,
     required: true
   },
-  prenom: {
+  firstName: {
     type: String,
     required: true
   },
@@ -20,7 +20,7 @@ const UserModel = mongoose.model("User", {
       required: true,
       unique: true
     },
-    adress: {
+    address: {
       type: String,
       required: true
     },
@@ -52,3 +52,5 @@ const UserModel = mongoose.model("User", {
   ratingValue: Number,
   reviews: Number
 });
+
+module.exports = mongoose.Schema("User", UserSchema, "users");
