@@ -35,7 +35,7 @@ router.post("/sign_up", function(req, res) {
 });
 
 router.post("/log_in", function(req, res) {
-  UserModel.findOne({ email: req.body.email }).exec(function(err, myAccount) {
+  User.findOne({ email: req.body.email }).exec(function(err, myAccount) {
     if (err) {
       return res.status(400).json({ error: err.message });
     } else if (myAccount === null) {
