@@ -43,7 +43,7 @@ const bikeRoutes = require("./routes/bike.js");
 
 app.use("/api", coreRoutes);
 app.use("/api/user", userRoutes);
-app.use("/api/room", bikeRoutes);
+app.use("/api/bike", bikeRoutes);
 
 // Toutes les méthodes HTTP (GET, POST, etc.) des pages non trouvées afficheront
 // une erreur 404

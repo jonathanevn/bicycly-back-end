@@ -10,7 +10,7 @@ const isAuthenticated = require("../middlewares/isAuthenticated");
 const User = require("../models/User.js");
 
 router.post("/sign_up", function(req, res) {
-  const newUser = new UserSchema(req.body);
+  const newUser = new User(req.body);
   const password = req.body.password;
   const token = uid2(16);
   const salt = uid2(16);
