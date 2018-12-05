@@ -11,7 +11,7 @@ let BikeSchema = new mongoose.Schema({
   pricePerDay: Number,
   photos: {
     required: true,
-    type: [String]
+    type: Array
   },
   description: String,
   accessories: {

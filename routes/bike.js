@@ -114,22 +114,21 @@ router.get("/", function(req, res, next) {
 router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
   // var photos = []; if (req.files.length) {   photos = _.map(req.files,
   // function(file) {     return file.filename;   }); }
-  const pictureBike = [];
-  pictureBike.push(req.pictures);
   const obj = {
     state: req.body.state,
     bikeBrand: req.body.bikeBrand,
     bikeModel: req.body.bikeModel,
     bikeCategory: req.body.bikeCategory,
     description: req.body.description,
-    photos: pictureBike,
+    photos: req.pictures,
     accessories: req.body.accessories,
     pricePerDay: req.body.pricePerDay,
     user: req.user
   };
+  console.log("obj photos", obj.photos);
   const bike = new Bike(obj);
   bike.save(function(err) {
-    console.log(req.user);
+    // console.log(req.user);
     if (!err) {
       req.user.account.bikes.push(bike._id);
       req.user.save();
@@ -142,8 +141,11 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
         photos: bike.photos,
         description: bike.description,
         accessories: bike.accessories,
-        created: bike.created,
         user: {
+          firstName: bike.user.firstName,
+          lastName: bike.user.lastName,
+          ratingValue: bike.user.ratingValue,
+          reviews: bike.user.reviews,
           account: bike.user.account,
           _id: bike.user._id
         }
