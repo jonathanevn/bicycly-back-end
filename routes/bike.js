@@ -127,7 +127,10 @@ router.post("/publish", isAuthenticated, function(req, res) {
   };
   var bike = new Bike(obj);
   bike.save(function(err) {
+    console.log(req.user);
     if (!err) {
+      req.user.account.bikes.push(bike._id);
+      req.user.save();
       return res.json({
         state: bike.state,
         bikeBrand: bike.bikeBrand,
