@@ -16,8 +16,6 @@ router.post("/sign_up", function(req, res) {
   const salt = uid2(16);
   const hash = SHA256(password + salt).toString(encBase64);
   // creation du compte : les 5 champs required + token/salt/hash
-  newUser.account.username = req.body.username;
-  newUser.account.address = req.body.address;
   newUser.lastName = req.body.lastName;
   newUser.firstName = req.body.firstName;
   newUser.email = req.body.email;
