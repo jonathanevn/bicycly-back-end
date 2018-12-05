@@ -19,6 +19,9 @@
       "Porte Bagage",
       "Housse de selle"
     ],
+    "address": "86 Rue du Faubourg du Temple",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
       "lat": 48.87104,
       "lon": 2.373783
@@ -39,6 +42,9 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 20,
     "accessories": ["Antivol", "Lumières", "Sonnette"],
+    "address": "206 Rue Saint-Maur",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
       "lat": 48.873291,
       "lon": 2.370698
@@ -59,6 +65,9 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 9,
     "accessories": ["Antivol", "Lumières", "Sonnette"],
+    "address": "23 Avenue Secrétan",
+    "city": "Paris",
+    "zipcode": "75019",
     "loc": {
       "lat": 48.881949,
       "lon": 2.371664
@@ -79,6 +88,9 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 17,
     "accessories": ["Antivol", "Lumières", "Sonnette", "Casque"],
+    "address": "198-222 Rue du Faubourg Saint-Martin",
+    "city": "Paris",
+    "zipcode": "75010",
     "loc": {
       "lat": 48.879638,
       "lon": 2.363355
@@ -99,6 +111,9 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..",
     "pricePerDay": 19,
     "accessories": ["Antivol"],
+    "address": "39 Avenue de la République",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
       "lat": 48.86563,
       "lon": 2.37271
@@ -126,6 +141,9 @@
       "Porte Bagage",
       "Sangles"
     ],
+    "address": "49 Rue Réaumur",
+    "city": "Paris",
+    "zipcode": "75002",
     "loc": {
       "lat": 48.864494,
       "lon": 2.378649
@@ -152,6 +170,9 @@
       "Porte Bagage",
       "Sangles"
     ],
+    "address": "1 Rue des Cendriers",
+    "city": "Paris",
+    "zipcode": "75020",
     "loc": {
       "lat": 48.865127,
       "lon": 2.385058
@@ -172,6 +193,9 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 24,
     "accessories": ["Antivol", "Lumières", "Sonnette"],
+    "address": "102 Boulevard Voltaire",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
       "lat": 48.858527,
       "lon": 2.378942
@@ -198,6 +222,9 @@
       "Porte Bagage",
       "Sangles"
     ],
+    "address": "2 Rue de Lappe",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
       "lat": 48.863383,
       "lon": 2.374082
@@ -218,9 +245,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 11,
     "accessories": ["Casque"],
+    "address": "26 Rue du Petit Musc",
+    "city": "Paris",
+    "zipcode": "75004",
     "loc": {
-      "lat": 48.868006,
-      "lon": 2.378311
+      "lat": 48.853033,
+      "lon": 2.364685
     }
   },
 
@@ -238,9 +268,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 20,
     "accessories": ["Antivol"],
+    "address": "18 Boulevard Morland",
+    "city": "Paris",
+    "zipcode": "75004",
     "loc": {
-      "lat": 48.869444,
-      "lon": 2.361601
+      "lat": 48.849776,
+      "lon": 2.363797
     }
   },
 
@@ -266,9 +299,12 @@
       "Sangles",
       "Housse de selle"
     ],
+    "address": "151 Rue du Temple",
+    "city": "Paris",
+    "zipcode": "75003",
     "loc": {
-      "lat": 48.877147,
-      "lon": 2.364908
+      "lat": 48.864044,
+      "lon": 2.3589
     }
   },
 
@@ -286,9 +322,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
     "accessories": ["Antivol", "Lumières", "Sonnette", "Porte Bagage"],
+    "address": "25 Rue Chapon",
+    "city": "Paris",
+    "zipcode": "75003",
     "loc": {
-      "lat": 48.875499,
-      "lon": 2.373905
+      "lat": 48.863412,
+      "lon": 2.356137
     }
   },
 
@@ -306,9 +345,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 8,
     "accessories": ["Antivol", "Lumières", "Sonnette"],
+    "address": "4 Rue Breguet",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
-      "lat": 48.875901,
-      "lon": 2.359826
+      "lat": 48.856725,
+      "lon": 2.371792
     }
   },
 
@@ -326,9 +368,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
     "accessories": ["Antivol"],
+    "address": "50 Rue de Charenton",
+    "city": "Paris",
+    "zipcode": "75012",
     "loc": {
-      "lat": 48.884275,
-      "lon": 2.36507
+      "lat": 48.849772,
+      "lon": 2.374175
     }
   },
 
@@ -352,9 +397,12 @@
       "Porte Bagage",
       "Casque"
     ],
+    "address": "15 Rue Edouard Lockroy",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
-      "lat": 48.859552,
-      "lon": 2.370869
+      "lat": 48.866495,
+      "lon": 2.37414
     }
   },
 
@@ -372,9 +420,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 19,
     "accessories": ["Antivol", "Porte Bagage", "Casque"],
+    "address": "3 Cité Ribot",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
-      "lat": 48.858748,
-      "lon": 2.362746
+      "lat": 48.866471,
+      "lon": 2.380492
     }
   },
 
@@ -392,9 +443,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 15,
     "accessories": ["Antivol", "Sangles"],
+    "address": "115 Rue du Chemin Vert",
+    "city": "Paris",
+    "zipcode": "75011",
     "loc": {
-      "lat": 48.865489,
-      "lon": 2.36045
+      "lat": 48.861788,
+      "lon": 2.382545
     }
   },
 
@@ -412,9 +466,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 10,
     "accessories": ["Antivol", "Lumières", "Sonnette", "Casque"],
+    "address": "2 Rue Charlot",
+    "city": "Paris",
+    "zipcode": "75003",
     "loc": {
-      "lat": 48.872355,
-      "lon": 2.355938
+      "lat": 48.861146,
+      "lon": 2.360513
     }
   },
 
@@ -432,9 +489,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 8,
     "accessories": ["Antivol", "Casque"],
+    "address": "2 Rue du Renard",
+    "city": "Paris",
+    "zipcode": "75004",
     "loc": {
-      "lat": 48.875024,
-      "lon": 2.352402
+      "lat": 48.857636,
+      "lon": 2.351514
     }
   },
 
@@ -460,9 +520,12 @@
       "Housse de selle",
       "Casque"
     ],
+    "address": "44 Rue au Maire",
+    "city": "Paris",
+    "zipcode": "75003",
     "loc": {
-      "lat": 48.872855,
-      "lon": 2.379751
+      "lat": 48.865135,
+      "lon": 2.354687
     }
   },
 
@@ -480,9 +543,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 13,
     "accessories": ["Antivol", "Casque"],
+    "address": "9 Rue de l'Échiquier",
+    "city": "Paris",
+    "zipcode": "75010",
     "loc": {
-      "lat": 48.86465,
-      "lon": 2.388678
+      "lat": 48.871174,
+      "lon": 2.352356
     }
   },
 
@@ -506,9 +572,12 @@
       "Porte Bagage",
       "Housse de selle"
     ],
+    "address": "6 Rue Bleue",
+    "city": "Paris",
+    "zipcode": "75009",
     "loc": {
-      "lat": 48.859348,
-      "lon": 2.388968
+      "lat": 48.875845,
+      "lon": 2.347249
     }
   },
 
@@ -532,9 +601,12 @@
       "Porte Bagage",
       "Casque"
     ],
+    "address": "11 Rue Lamartine",
+    "city": "Paris",
+    "zipcode": "75009",
     "loc": {
-      "lat": 48.852541,
-      "lon": 2.384832
+      "lat": 48.876551,
+      "lon": 2.342915
     }
   },
 
@@ -552,9 +624,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 6,
     "accessories": ["Antivol", "Lumières", "Sonnette", "Casque"],
+    "address": "1 Boulevard Saint-Germain",
+    "city": "Paris",
+    "zipcode": "75005",
     "loc": {
-      "lat": 48.849844,
-      "lon": 2.379269
+      "lat": 48.849425,
+      "lon": 2.355932
     }
   },
 
@@ -572,9 +647,12 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "pricePerDay": 6,
     "accessories": ["Antivol", "Lumières", "Sonnette", "Casque"],
+    "address": "9-3 Rue des Carmes",
+    "city": "Paris",
+    "zipcode": "75005",
     "loc": {
-      "lat": 48.849533,
-      "lon": 2.370643
+      "lat": 48.849258,
+      "lon": 2.347641
     }
   },
 
@@ -599,9 +677,12 @@
       "Porte Bagage",
       "Sangles"
     ],
+    "address": "50 Avenue de Flandre",
+    "city": "Paris",
+    "zipcode": "75019",
     "loc": {
-      "lat": 48.852675,
-      "lon": 2.363127
+      "lat": 48.887358,
+      "lon": 2.372901
     }
   },
 
@@ -626,9 +707,12 @@
       "Porte Bagage",
       "Sangles"
     ],
+    "address": "29 Rue Pajol",
+    "city": "Paris",
+    "zipcode": "75018",
     "loc": {
-      "lat": 48.857595,
-      "lon": 2.358599
+      "lat": 48.887196,
+      "lon": 2.361397
     }
   }
 ]
