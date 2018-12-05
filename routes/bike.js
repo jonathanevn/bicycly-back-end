@@ -4,6 +4,7 @@ let router = express.Router();
 let Bike = require("../models/Bike.js");
 let City = require("../models/City.js");
 const isAuthenticated = require("../middlewares/isAuthenticated");
+const uploadPictures = require("../middlewares/uploadPictures");
 function getRadians(meters) {
   let km = meters / 1000;
   return km / 111.2;
@@ -110,25 +111,29 @@ router.get("/", function(req, res, next) {
       return next(err.message);
     });
 });
-router.post("/publish", isAuthenticated, function(req, res) {
+router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
   // var photos = []; if (req.files.length) {   photos = _.map(req.files,
   // function(file) {     return file.filename;   }); }
-
-  var obj = {
+  const pictureBike = [];
+  pictureBike.push(req.pictures);
+  const obj = {
     state: req.body.state,
     bikeBrand: req.body.bikeBrand,
     bikeModel: req.body.bikeModel,
     bikeCategory: req.body.bikeCategory,
     description: req.body.description,
-    photos: req.body.photos,
+    photos: pictureBike,
     accessories: req.body.accessories,
     pricePerDay: req.body.pricePerDay,
     user: req.user
   };
-  var bike = new Bike(obj);
+  const bike = new Bike(obj);
   bike.save(function(err) {
+    console.log(req.user);
     if (!err) {
-      return res.json({
+      req.user.account.bikes.push(bike._id);
+      req.user.save();
+      res.status(200).json({
         state: bike.state,
         bikeBrand: bike.bikeBrand,
         bikeModel: bike.bikeModel,
@@ -144,7 +149,7 @@ router.post("/publish", isAuthenticated, function(req, res) {
         }
       });
     } else {
-      return next(err.message);
+      res.status(400).json("err mess !!!!!!", err.message);
     }
   });
 });
