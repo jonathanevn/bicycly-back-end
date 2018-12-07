@@ -15,11 +15,11 @@ router.get("/around", function(req, res, next) {
   if (!req.query.longitude || !req.query.latitude) {
     return next("Latitude and longitude are mandatory");
   }
-
+  console.log(req.query);
   Bike.find()
     .where("loc")
     .near({
-      center: [req.query.longitude, req.query.latitude],
+      center: [Number(req.query.latitude), Number(req.query.longitude)],
       maxDistance: getRadians(50000)
     })
     .exec()
@@ -27,8 +27,9 @@ router.get("/around", function(req, res, next) {
       return res.json(bikes);
     })
     .catch(function(err) {
+      console.log("err", err);
       res.status(400);
-      return next(err.message);
+      return next(err);
     });
 });
 
