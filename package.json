@@ -30,6 +30,7 @@
     "lodash": "^4.17.11",
     "mongoose": "^5.3.14",
     "mongoose-simple-random": "^0.4.1",
+    "stripe": "^6.18.1",
     "uid2": "0.0.3"
   }
 }
