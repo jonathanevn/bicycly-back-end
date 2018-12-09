@@ -9,7 +9,7 @@ const isAuthenticated = require("../middlewares/isAuthenticated");
 
 const User = require("../models/User.js");
 
-router.post("/sign_up", function(req, res) {
+router.post("/sign_up", function(req, res, next) {
   const newUser = new User(req.body);
   const password = req.body.password;
   const token = uid2(16);
@@ -25,9 +25,9 @@ router.post("/sign_up", function(req, res) {
 
   newUser.save(function(err, createdUser) {
     if (err) {
-      res.json({ error: err.message });
+      return next({ error: err.message });
     } else {
-      res.json(createdUser);
+      return res.json(createdUser);
     }
   });
 });
