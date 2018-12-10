@@ -23,13 +23,17 @@ router.post("/sign_up", function(req, res, next) {
   newUser.hash = hash;
   newUser.salt = salt;
 
-  newUser.save(function(err, createdUser) {
-    if (err) {
-      return next({ error: err.message });
-    } else {
-      return res.json(createdUser);
-    }
-  });
+  if (!req.body.password) {
+    return res.status(400).json({ error: "password is missing" });
+  } else {
+    newUser.save(function(err, createdUser) {
+      if (err) {
+        return next({ error: err.message });
+      } else {
+        return res.json(createdUser);
+      }
+    });
+  }
 });
 
 router.post("/log_in", function(req, res) {
