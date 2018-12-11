@@ -64,7 +64,7 @@ router.post("/log_in", function(req, res) {
 // L'authentification est obligatoire pour cette route
 router.get("/:id", isAuthenticated, function(req, res, next) {
   User.findById(req.params.id)
-    .select("account")
+    // .select("account")
     // .populate("account.bikes")
     .exec()
     .then(function(user) {
@@ -75,7 +75,11 @@ router.get("/:id", isAuthenticated, function(req, res, next) {
 
       return res.json({
         _id: user._id,
-        account: user.account
+        firstName: user.firstName,
+        lastName: user.lastName,
+        account: user.account,
+        reviews: user.reviews,
+        ratingValue: user.ratingValue
       });
     })
     .catch(function(err) {
