@@ -158,13 +158,13 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
 });
 router.get("/:id", function(req, res, next) {
   Bike.findById(req.params.id)
-    .populate("city")
+    .populate("user")
     // IMPORTANT SÉCURITÉ
     // Les informations sensibles de l'utilisateur étant stockées à la racine de l'objet, il est important de transmettre uniquement `account`
-    .populate({
+    /*  .populate({
       path: "user",
       select: "account"
-    })
+    }) */
     .exec()
     .then(function(bike) {
       if (!bike) {
