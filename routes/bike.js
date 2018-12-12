@@ -19,7 +19,7 @@ router.get("/around", function(req, res, next) {
   Bike.find()
     .where("loc")
     .near({
-      center: [Number(req.query.latitude), Number(req.query.longitude)],
+      center: [Number(req.query.longitude), Number(req.query.latitude)],
       maxDistance: getRadians(50000)
     })
     .exec()
