@@ -79,7 +79,8 @@ router.get("/:id", isAuthenticated, function(req, res, next) {
         lastName: user.lastName,
         account: user.account,
         reviews: user.reviews,
-        ratingValue: user.ratingValue
+        ratingValue: user.ratingValue,
+        email: user.email
       });
     })
     .catch(function(err) {

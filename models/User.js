@@ -40,7 +40,7 @@ const UserSchema = new mongoose.Schema({
   },
 
   //   buyingOptions: String,
-
+  phone: Number,
   token: String,
   hash: String,
   salt: String,
