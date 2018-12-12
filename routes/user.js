@@ -6,6 +6,7 @@ const encBase64 = require("crypto-js/enc-base64");
 const uid2 = require("uid2");
 
 const isAuthenticated = require("../middlewares/isAuthenticated");
+const uploadPictures = require("../middlewares/uploadPictures");
 
 const User = require("../models/User.js");
 
@@ -57,6 +58,33 @@ router.post("/log_in", function(req, res) {
       } else {
         return res.status(400).json({ error: "login is not correct" });
       }
+    }
+  });
+});
+
+router.post("/update", isAuthenticated, uploadPictures, function(req, res) {
+  User.findById(req.params.id).exec(function(err, update) {
+    if (err) {
+      return res.status(400).json({ error: err.message });
+    } else {
+      const user = new User({
+        email: req.body.email,
+        account: {
+          phone: req.body.phone,
+          profilePicture: req.body.profilePicture
+        }
+      });
+      user.save(function(err) {
+        if (err) {
+          return next(err.message);
+        } else {
+          return res.json({
+            _id: user._id,
+            token: user.token,
+            account: user.account
+          });
+        }
+      });
     }
   });
 });

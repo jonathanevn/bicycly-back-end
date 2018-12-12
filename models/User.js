@@ -19,6 +19,7 @@ const UserSchema = new mongoose.Schema({
       required: false,
       type: [String]
     },
+    phone: Number,
     bikes: [
       {
         type: mongoose.Schema.Types.ObjectId,
@@ -40,7 +41,7 @@ const UserSchema = new mongoose.Schema({
   },
 
   //   buyingOptions: String,
-  phone: Number,
+
   token: String,
   hash: String,
   salt: String,
