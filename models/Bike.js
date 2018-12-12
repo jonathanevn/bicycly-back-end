@@ -19,7 +19,7 @@ let BikeSchema = new mongoose.Schema({
     default: undefined
   },
   loc: {
-    type: Object, // Longitude et latitude
+    type: [Number], // Longitude et latitude
     index: "2d" // Créer un index geospatial https://docs.mongodb.com/manual/core/2d/
   },
   user: {
