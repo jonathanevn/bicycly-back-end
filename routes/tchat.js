@@ -24,14 +24,14 @@ router.get("/message/:thread", function(req, res) {
         res.send(messages);
       });
   } else {
-    BikeModel.find({ _id: this.state.navigation.params.bikeId }) //this.state.navigate.params.bike
+    BikeModel.find({ _id: this.state.navigation.params.bikeId })
 
       .populate({ path: "user" })
       .exec(function(err, secondUser) {
         console.log("Thread non-existante", secondUser[0].user._id);
         const thread = new ThreadModel({
           users: [secondUser[0].user._id],
-          bike: this.state.navigation.params.bikeId //bike
+          bike: this.state.navigation.params.bikeId
         });
         thread.save(function(err, savedThread) {
           res.json(savedThread);
