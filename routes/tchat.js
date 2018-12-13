@@ -7,13 +7,32 @@ const isAuthenticated = require("../middlewares/isAuthenticated");
 const BikeModel = require("../models/Bike");
 const MessageModel = require("../models/Message");
 const ThreadModel = require("../models/Thread");
-//const UserModel = require("../models/User");
+const UserModel = require("../models/User");
+
+//On check si une thread existe déjà entre ces deux utilisateurs
+router.get("/thread/:userId/:propId", function(req, res) {
+  ThreadModel.find({ users: req.params.userId, users: req.params.propId }).exec(
+    (err, foundThread) => {
+      res.send(foundThread);
+    }
+  );
+});
+
+//Récupérer l'id du propriétaire
+router.get("/:bikeId"),
+  function(req, res) {
+    BikeModel.find({ _id: req.params.bikeId })
+      .populate({ path: "user", select: "_id" })
+      .exec(function(err, proprioId) {
+        res.send(proprioId);
+      });
+  };
 
 //Recuperer historique des messages
-router.get("/message/:thread", function(req, res) {
+router.get("/message/:thread?/:bikeId?/:userId?", function(req, res) {
   // recuperer les messages d'une discussion
   console.log("THREAD ID", req.params.thread);
-  if (req.params.thread !== "undefined") {
+  if (req.params.thread) {
     console.log("Thread existant", req.params.thread);
     MessageModel.find({ thread: req.params.thread })
       //recuperer d autres collections
@@ -24,14 +43,16 @@ router.get("/message/:thread", function(req, res) {
         res.send(messages);
       });
   } else {
-    BikeModel.find({ _id: this.state.navigation.params.bikeId })
-
+    BikeModel.find({ _id: req.params.bikeId })
       .populate({ path: "user" })
       .exec(function(err, secondUser) {
-        console.log("Thread non-existante", secondUser[0].user._id);
+        console.log(
+          "Thread non-existante, id du propriétaire du vélo ====>",
+          secondUser[0].user._id
+        );
         const thread = new ThreadModel({
-          users: [secondUser[0].user._id],
-          bike: this.state.navigation.params.bikeId
+          users: [secondUser[0].user._id, req.params.userId],
+          bike: req.params.bikeId
         });
         thread.save(function(err, savedThread) {
           res.json(savedThread);
