@@ -29,11 +29,10 @@ router.get("/:bikeId"),
   };
 
 //Recuperer historique des messages
-router.get("/message/:thread?/:bikeId?/:userId?", function(req, res) {
+router.get("/message/:bikeId/:userId/:thread?", function(req, res) {
   // recuperer les messages d'une discussion
-  console.log("THREAD ID", req.params.thread);
   if (req.params.thread) {
-    console.log("Thread existant", req.params.thread);
+    console.log("Thread existante, son ID ===>", req.params.thread);
     MessageModel.find({ thread: req.params.thread })
       //recuperer d autres collections
       .populate({ path: "user" })
@@ -55,7 +54,7 @@ router.get("/message/:thread?/:bikeId?/:userId?", function(req, res) {
           bike: req.params.bikeId
         });
         thread.save(function(err, savedThread) {
-          res.json(savedThread);
+          res.send(savedThread);
         });
       });
   }
