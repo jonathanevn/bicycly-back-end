@@ -15,6 +15,8 @@ const uploadPictures = (req, res, next) => {
   const pictures = [];
   // Je récupères le tableau de fichiers
   const files = req.body.photos;
+  console.log("​uploadPictures -> req.body", req.body);
+  console.log("​uploadPictures -> files", files);
   // J'initialise le nombre de fichiers traités
   let filesProcessed = 0;
 
@@ -26,15 +28,16 @@ const uploadPictures = (req, res, next) => {
       // Je crée un nom spécifique pour la photo
       const name = uid2(16);
       cloudinary.v2.uploader.upload(
-        file,
+        "data:image/jpeg;base64," + file,
         {
           // J'assigne un dossier spécifique dans Cloudinary pour chaque utilisateur
           public_id: `bicycly-cloud/${req.user._id}/${name}`
         },
         (error, result) => {
-          //   console.log(error, result);
+          console.log("result", result);
           // Si j'ai une erreur avec l'upload, je sors de ma route
           if (error) {
+            console.log("​uploadPictures -> error", error);
             return res.status(500).json({ error });
           }
           // Sinon, je push mon image dans le tableau

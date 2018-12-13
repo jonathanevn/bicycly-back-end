@@ -113,6 +113,7 @@ router.get("/", function(req, res, next) {
     });
 });
 router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
+  console.log("je suis la");
   // var photos = []; if (req.files.length) {   photos = _.map(req.files,
   // function(file) {     return file.filename;   }); }
   const obj = {
@@ -129,7 +130,7 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
   console.log("obj photos", obj.photos);
   const bike = new Bike(obj);
   bike.save(function(err) {
-    // console.log(req.user);
+    console.log(req.user);
     if (!err) {
       req.user.account.bikes.push(bike._id);
       req.user.save();
