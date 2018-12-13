@@ -62,8 +62,9 @@ router.post("/log_in", function(req, res) {
   });
 });
 
-router.post("/update", isAuthenticated, uploadPictures, function(req, res) {
+router.post("/update", isAuthenticated, function(req, res, next) {
   User.findOne({ token: req.user.token }).exec(function(err, update) {
+    console.log(req.user.token);
     if (err) {
       return res.status(400).json({ error: err.message });
     } else {
@@ -71,7 +72,7 @@ router.post("/update", isAuthenticated, uploadPictures, function(req, res) {
         email: req.body.email,
         account: {
           phone: req.body.phone,
-          profilePicture: req.body.profilePicture
+          photos: req.body.photos
         }
       });
       user.save(function(err) {

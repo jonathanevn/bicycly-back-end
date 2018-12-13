@@ -15,7 +15,7 @@ const UserSchema = new mongoose.Schema({
     unique: true
   },
   account: {
-    profilePicture: {
+    photos: {
       required: false,
       type: [String]
     },
