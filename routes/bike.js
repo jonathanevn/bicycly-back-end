@@ -134,6 +134,7 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
       req.user.account.bikes.push(bike._id);
       req.user.save();
       res.status(200).json({
+        _id: bike._id,
         state: bike.state,
         bikeBrand: bike.bikeBrand,
         bikeModel: bike.bikeModel,
