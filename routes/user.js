@@ -63,7 +63,7 @@ router.post("/log_in", function(req, res) {
 });
 
 router.post("/update", isAuthenticated, uploadPictures, function(req, res) {
-  User.findById(req.params.id).exec(function(err, update) {
+  User.findOne({ token: req.user.token }).exec(function(err, update) {
     if (err) {
       return res.status(400).json({ error: err.message });
     } else {
