@@ -17,9 +17,12 @@ const UserSchema = new mongoose.Schema({
   account: {
     photos: {
       required: false,
-      type: [String]
+      type: Array
     },
-    phone: Number,
+    phone: {
+      type: String,
+      default: ""
+    },
     bikes: [
       {
         type: mongoose.Schema.Types.ObjectId,

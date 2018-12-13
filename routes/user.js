@@ -18,6 +18,7 @@ router.post("/sign_up", function(req, res, next) {
   const hash = SHA256(password + salt).toString(encBase64);
   // creation du compte : les 5 champs required + token/salt/hash
   newUser.lastName = req.body.lastName;
+
   newUser.firstName = req.body.firstName;
   newUser.email = req.body.email;
   newUser.token = token;
@@ -63,28 +64,15 @@ router.post("/log_in", function(req, res) {
 });
 
 router.post("/update", isAuthenticated, function(req, res, next) {
-  User.findOne({ token: req.user.token }).exec(function(err, update) {
+  User.findOne({ token: req.user.token }).exec(function(err, user) {
     console.log(req.user.token);
-    if (err) {
-      return res.status(400).json({ error: err.message });
-    } else {
-      const user = new User({
-        email: req.body.email,
-        account: {
-          phone: req.body.phone,
-          photos: req.body.photos
-        }
-      });
-      user.save(function(err) {
-        if (err) {
-          return next(err.message);
-        } else {
-          return res.json({
-            _id: user._id,
-            token: user.token,
-            account: user.account
-          });
-        }
+    if (user) {
+      user.email = req.body.email;
+      user.account.phone = req.body.phone;
+
+      user.save(function(err, savedUser) {
+        console.log(err, savedUser);
+        res.status(200).json(savedUser);
       });
     }
   });
