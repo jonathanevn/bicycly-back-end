@@ -10,13 +10,14 @@ function getRadians(meters) {
   return km / 111.2;
 }
 
-router.get("/around", function(req, res, next) {
+router.get("/around/", function(req, res, next) {
   // Latitude et longitude sont obligatoires
   if (!req.query.longitude || !req.query.latitude) {
     return next("Latitude and longitude are mandatory");
   }
-  console.log(req.query);
-  Bike.find()
+  const filters = req.query.category.split(" ");
+
+  Bike.find({ bikeCategory: { $in: filters } })
     .where("loc")
     .near({
       center: [Number(req.query.longitude), Number(req.query.latitude)],
@@ -113,7 +114,6 @@ router.get("/", function(req, res, next) {
     });
 });
 router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
-  console.log("je suis la");
   // var photos = []; if (req.files.length) {   photos = _.map(req.files,
   // function(file) {     return file.filename;   }); }
   const obj = {
