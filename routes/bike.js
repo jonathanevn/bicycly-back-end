@@ -125,7 +125,8 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
     photos: req.pictures,
     accessories: req.body.accessories,
     pricePerDay: req.body.pricePerDay,
-    user: req.user
+    user: req.user,
+    loc: [2.37375, 48.871053]
   };
   console.log("obj photos", obj.photos);
   const bike = new Bike(obj);
