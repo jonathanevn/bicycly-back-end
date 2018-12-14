@@ -111,4 +111,8 @@ router.get("/:id", isAuthenticated, function(req, res, next) {
     });
 });
 
+// router.get("/anyThread", function(req, res, next) {
+//   Thread.find()
+// })
+
 module.exports = router;
