@@ -7,7 +7,7 @@ let BikeSchema = new mongoose.Schema({
   state: String,
   bikeBrand: String,
   bikeModel: String,
-  bikeCategory: String,
+  bikeCategory: [String],
   pricePerDay: Number,
   photos: {
     required: true,
