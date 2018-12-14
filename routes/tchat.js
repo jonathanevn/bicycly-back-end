@@ -13,25 +13,25 @@ const UserModel = require("../models/User");
 router.get("/thread/:userId/:propId", function(req, res) {
   ThreadModel.find({ users: req.params.userId, users: req.params.propId }).exec(
     (err, foundThread) => {
+      console.log(foundThread);
       res.send(foundThread);
     }
   );
 });
 
 //Récupérer l'id du propriétaire
-router.get("/:bikeId"),
-  function(req, res) {
-    BikeModel.find({ _id: req.params.bikeId })
-      .populate({ path: "user", select: "_id" })
-      .exec(function(err, proprioId) {
-        res.send(proprioId);
-      });
-  };
+router.get("/:bikeId", function(req, res) {
+  BikeModel.find({ _id: req.params.bikeId })
+    .populate({ path: "user", select: "_id" })
+    .exec(function(err, proprioId) {
+      res.send(proprioId);
+    });
+});
 
 //Recuperer historique des messages
 router.get("/message/:bikeId/:userId/:thread?", function(req, res) {
   // recuperer les messages d'une discussion
-  if (req.params.thread) {
+  if (req.params.thread !== "undefined") {
     console.log("Thread existante, son ID ===>", req.params.thread);
     MessageModel.find({ thread: req.params.thread })
       //recuperer d autres collections
