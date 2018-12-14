@@ -73,7 +73,7 @@ router.post("/update", isAuthenticated, uploadPictures, function(
     if (user) {
       user.email = req.body.email;
       user.account.phone = req.body.phone;
-      user.account.photos = req.body.photos;
+      user.account.photos = req.pictures;
 
       user.save(function(err, savedUser) {
         console.log(err, savedUser);
