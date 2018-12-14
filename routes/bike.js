@@ -15,9 +15,14 @@ router.get("/around/", function(req, res, next) {
   if (!req.query.longitude || !req.query.latitude) {
     return next("Latitude and longitude are mandatory");
   }
-  const filters = req.query.category.split(" ");
+  let find;
+  if (req.query.category) {
+    find = { bikeCategory: { $in: req.query.category.split(" ") } };
+  } else {
+    find = {};
+  }
 
-  Bike.find({ bikeCategory: { $in: filters } })
+  Bike.find(find)
     .where("loc")
     .near({
       center: [Number(req.query.longitude), Number(req.query.latitude)],
@@ -60,19 +65,19 @@ router.get("/", function(req, res, next) {
 
       cityRes = city;
 
-      filter.city = city._id;
-      if (
-        req.query.priceMin !== undefined ||
-        req.query.priceMax !== undefined
-      ) {
-        filter.price = {};
-        if (req.query.priceMin !== undefined) {
-          filter.price["$gte"] = req.query.priceMin;
-        }
-        if (req.query.priceMax !== undefined) {
-          filter.price["$lte"] = req.query.priceMax;
-        }
-      }
+      // filter.city = city._id;
+      // if (
+      //   req.query.priceMin !== undefined ||
+      //   req.query.priceMax !== undefined
+      // ) {
+      //   filter.price = {};
+      //   if (req.query.priceMin !== undefined) {
+      //     filter.price["$gte"] = req.query.priceMin;
+      //   }
+      //   if (req.query.priceMax !== undefined) {
+      //     filter.price["$lte"] = req.query.priceMax;
+      //   }
+      // }
 
       return Bike.find(filter)
         .count()
@@ -126,9 +131,9 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
     accessories: req.body.accessories,
     pricePerDay: req.body.pricePerDay,
     user: req.user,
-    loc: [2.37375, 48.871053]
+    loc: [2.37373, 48.871051]
   };
-  console.log("obj photos", obj.photos);
+  //  console.log("obj photos", obj.photos);
   const bike = new Bike(obj);
   bike.save(function(err) {
     console.log(req.user);
