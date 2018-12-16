@@ -165,7 +165,7 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
     }
   });
 });
-router.get("/:id", function(req, res, next) {
+router.get("/:id", isAuthenticated, function(req, res, next) {
   Bike.findById(req.params.id)
     .populate("user")
     // IMPORTANT SÉCURITÉ
@@ -181,21 +181,28 @@ router.get("/:id", function(req, res, next) {
         return next("bike not found");
       }
 
-      Thread.findOne({ bike: req.params.id })
-        .lean()
-        .exec((err, thread) => {
-          if (thread) {
-            res.json({
-              bike: bike,
-              thread: thread
-            });
-          } else {
-            res.json({
-              bike: bike,
-              thread: null
-            });
-          }
+      if (req.user._id === bike.user._id) {
+        res.json({
+          bike: bike,
+          thread: null
         });
+      } else {
+        Thread.findOne({ bike: req.params.id })
+          .lean()
+          .exec((err, thread) => {
+            if (thread) {
+              res.json({
+                bike: bike,
+                thread: thread
+              });
+            } else {
+              res.json({
+                bike: bike,
+                thread: null
+              });
+            }
+          });
+      }
     })
     .catch(function(err) {
       res.status(400);

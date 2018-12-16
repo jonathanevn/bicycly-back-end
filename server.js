@@ -64,20 +64,20 @@ wss.on("connection", function connection(ws, req) {
 
       // pour connaitre la reference user je dois chercher l'utilisateur
       // attention la recherche du user doit se faire par un token pour securiser
-      UserModel.findOne({ firstName: dataJSON.firstName }).exec((err, user) => {
-        MessageModel.find({ thread: dataJSON.thread })
+      User.findOne({ token: dataJSON.token }).exec((err, user) => {
+        Message.find({ thread: dataJSON.thread })
           .count()
           .exec((err, count) => {
             let message;
             if (count === 0) {
-              message = new MessageModel({
+              message = new Message({
                 text: dataJSON.text,
                 user: user,
                 thread: dataJSON.thread,
                 isRequest: true
               });
             } else {
-              message = new MessageModel({
+              message = new Message({
                 text: dataJSON.text,
                 user: user,
                 thread: dataJSON.thread,
@@ -89,13 +89,13 @@ wss.on("connection", function connection(ws, req) {
             message.save(err => {
               wss.clients.forEach(function each(client) {
                 if (client !== ws && client.readyState === WebSocket.OPEN) {
-                  if (dataJSON.text && dataJSON.name) {
+                  if (dataJSON.text) {
                     client.send(
                       JSON.stringify({
                         // message recu par les autres participants
                         _id: message._id,
                         text: dataJSON.text,
-                        user: { name: dataJSON.name },
+                        user: { name: user.firstName },
                         createdAt: message.createdAt
                       })
                     );
@@ -125,6 +125,6 @@ app.use(function(err, req, res, next) {
   res.json({ error: err });
 });
 
-app.listen(process.env.PORT, function() {
+server.listen(process.env.PORT, function() {
   console.log(`bicycly running on port ${process.env.PORT}`);
 });
