@@ -1,12 +1,14 @@
 const mongoose = require("mongoose");
 
 const ThreadModel = mongoose.model("Thread", {
-  users: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User"
-    }
-  ],
+  owner: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User"
+  },
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User"
+  },
   bike: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Bike"

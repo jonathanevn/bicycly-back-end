@@ -3,6 +3,7 @@ let router = express.Router();
 
 let Bike = require("../models/Bike.js");
 let City = require("../models/City.js");
+let Thread = require("../models/Thread.js");
 const isAuthenticated = require("../middlewares/isAuthenticated");
 const uploadPictures = require("../middlewares/uploadPictures");
 function getRadians(meters) {
@@ -180,7 +181,21 @@ router.get("/:id", function(req, res, next) {
         return next("bike not found");
       }
 
-      return res.json(bike);
+      Thread.findOne({ bike: req.params.id })
+        .lean()
+        .exec((err, thread) => {
+          if (thread) {
+            res.json({
+              bike: bike,
+              thread: thread
+            });
+          } else {
+            res.json({
+              bike: bike,
+              thread: null
+            });
+          }
+        });
     })
     .catch(function(err) {
       res.status(400);
