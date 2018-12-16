@@ -95,6 +95,7 @@ wss.on("connection", function connection(ws, req) {
                         // message recu par les autres participants
                         _id: message._id,
                         text: dataJSON.text,
+                        threadId: dataJSON.thread,
                         user: { name: user.firstName },
                         createdAt: message.createdAt
                       })
