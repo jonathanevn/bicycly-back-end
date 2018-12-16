@@ -58,19 +58,26 @@ router.get("/message/:bikeId/:userId/:thread?", function(req, res) {
       .populate({ path: "thread", populate: { path: "bike" } })
       .sort({ createdAt: -1 }) //ordre des messges
       .exec((err, messages) => {
-        res.json(messages);
+        BikeModel.findOne({ _id: req.params.bikeId })
+          .populate({ path: "user" })
+          .exec(function(err, bike) {
+            res.json({
+              messages: messages,
+              bike: bike
+            });
+          });
       });
   } else {
-    BikeModel.find({ _id: req.params.bikeId })
+    BikeModel.findOne({ _id: req.params.bikeId })
       .populate({ path: "user" })
-      .exec(function(err, secondUser) {
+      .exec(function(err, bike) {
         console.log(
           "Thread non-existante, id du propriétaire du vélo ====>",
-          secondUser[0].user._id
+          bike.user._id
         );
         const thread = new ThreadModel({
           user: req.params.userId,
-          owner: secondUser[0].user._id,
+          owner: bike.user._id,
           bike: req.params.bikeId
         });
         thread.save(function(err, savedThread) {
