@@ -115,7 +115,7 @@ router.get("/:id", isAuthenticated, function(req, res, next) {
 //recherche des threads liées aux vélos du propriétaire
 router.get("/anyThread/:id", isAuthenticated, function(req, res, next) {
   Thread.find({ $or: [{ owner: req.params.id }, { user: req.params.id }] })
-    .populate({ path: "bike" })
+    .populate("bike owner user")
     .exec((err, foundBikes) => {
       res.json(foundBikes);
     });
