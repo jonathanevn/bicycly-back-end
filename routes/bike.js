@@ -17,8 +17,6 @@ router.get("/around/", function(req, res, next) {
     return next("Latitude and longitude are mandatory");
   }
   let find;
-  console.log("req.query.longitude", req.query.longitude);
-  console.log("req.query.category", req.query.category);
   if (req.query.category) {
     find = { bikeCategory: { $in: req.query.category.split(" ") } };
   } else {
