@@ -124,8 +124,12 @@ router.get("/anyThread/:id", isAuthenticated, function(req, res, next) {
   // });
 });
 
-// router.get("/anyThread", function(req, res, next) {
-//   Thread.find()
-// })
+router.get("/myBikesList/:id", isAuthenticated, function(req, res) {
+  User.find({ _id: req.params.id })
+    .populate({ path: "account.bikes" })
+    .exec((err, myBikesFound) => {
+      res.json(myBikesFound);
+    });
+});
 
 module.exports = router;
