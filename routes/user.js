@@ -9,6 +9,7 @@ const isAuthenticated = require("../middlewares/isAuthenticated");
 const uploadPictures = require("../middlewares/uploadPictures");
 
 const User = require("../models/User.js");
+const Thread = require("../models/Thread.js");
 
 router.post("/sign_up", function(req, res, next) {
   const newUser = new User(req.body);
@@ -111,8 +112,24 @@ router.get("/:id", isAuthenticated, function(req, res, next) {
     });
 });
 
-// router.get("/anyThread", function(req, res, next) {
-//   Thread.find()
-// })
+//recherche des threads liées aux vélos du propriétaire
+router.get("/anyThread/:id", isAuthenticated, function(req, res, next) {
+  Thread.find({ $or: [{ owner: req.params.id }, { user: req.params.id }] })
+    .populate("bike owner user")
+    .exec((err, foundBikes) => {
+      res.json(foundBikes);
+    });
+  // .catch(function(err) {
+  //   res.status(400).json(err);
+  // });
+});
+
+router.get("/myBikesList/:id", isAuthenticated, function(req, res) {
+  User.find({ _id: req.params.id })
+    .populate({ path: "account.bikes" })
+    .exec((err, myBikesFound) => {
+      res.json(myBikesFound);
+    });
+});
 
 module.exports = router;
