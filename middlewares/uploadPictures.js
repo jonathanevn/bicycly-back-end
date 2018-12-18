@@ -15,8 +15,8 @@ const uploadPictures = (req, res, next) => {
   const pictures = [];
   // Je récupères le tableau de fichiers
   const files = req.body.photos;
-  console.log("​uploadPictures -> req.body", req.body);
-  console.log("​uploadPictures -> files", files);
+  /*   console.log("​uploadPictures -> req.body", req.body);
+  console.log("​uploadPictures -> files", files); */
   // J'initialise le nombre de fichiers traités
   let filesProcessed = 0;
 
@@ -34,7 +34,7 @@ const uploadPictures = (req, res, next) => {
           public_id: `bicycly-cloud/${req.user._id}/${name}`
         },
         (error, result) => {
-          console.log("result", result);
+          /*        console.log("result", result); */
           // Si j'ai une erreur avec l'upload, je sors de ma route
           if (error) {
             console.log("​uploadPictures -> error", error);

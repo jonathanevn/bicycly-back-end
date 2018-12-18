@@ -134,12 +134,14 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
     accessories: req.body.accessories,
     pricePerDay: req.body.pricePerDay,
     user: req.user,
-    loc: [2.37373, 48.871051]
+    loc: req.body.loc
   };
-  //  console.log("obj photos", obj.photos);
+
   const bike = new Bike(obj);
   bike.save(function(err) {
-    console.log(req.user);
+    console.log("OBJEEET", obj);
+    console.log("req.body.loc", req.body.loc);
+    console.log("bike.loooc", bike.loc);
     if (!err) {
       req.user.account.bikes.push(bike._id);
       req.user.save();
@@ -160,7 +162,8 @@ router.post("/publish", isAuthenticated, uploadPictures, function(req, res) {
           reviews: bike.user.reviews,
           account: bike.user.account,
           _id: bike.user._id
-        }
+        },
+        loc: bike.loc
       });
     } else {
       res.status(400).json("err mess !!!!!!", err.message);
